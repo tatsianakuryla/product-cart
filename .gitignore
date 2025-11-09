@@ -1,0 +1,10 @@
+node_modules
+.parcel-cache
+ehthumbs.db
+Thumbs.db
+.DS_Store
+.idea
+*.log
+*.o
+*.env
+dist/

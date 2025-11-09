@@ -1,0 +1,98 @@
+[
+  {
+    "id": "p1",
+    "title": "Кофе арабика 250 г",
+    "desc": "Средняя обжарка, ореховый аромат.",
+    "priceCents": 129900,
+    "img": "https://picsum.photos/seed/coffee/600/400",
+    "alt": "Упаковка молотого кофе арабика 250 г"
+  },
+  {
+    "id": "p2",
+    "title": "Зелёный чай 100 г",
+    "desc": "Листовой, свежий и мягкий вкус.",
+    "priceCents": 45900,
+    "img": "https://picsum.photos/seed/tea/600/400",
+    "alt": "Пакет зелёного листового чая 100 г"
+  },
+  {
+    "id": "p3",
+    "title": "Шоколад тёмный 85%",
+    "desc": "Какао-бобы премиум, без добавок.",
+    "priceCents": 23900,
+    "img": "https://picsum.photos/seed/chocolate/600/400",
+    "alt": "Плитка тёмного шоколада 85%"
+  },
+  {
+    "id": "p4",
+    "title": "Оливковое масло 500 мл",
+    "desc": "Extra Virgin, холодный отжим.",
+    "priceCents": 199900,
+    "img": "https://picsum.photos/seed/olive-oil/600/400",
+    "alt": "Бутылка оливкового масла Extra Virgin 500 мл"
+  },
+  {
+    "id": "p5",
+    "title": "Керамическая кружка",
+    "desc": "Матовая, 350 мл, универсальная.",
+    "priceCents": 32900,
+    "img": "https://picsum.photos/seed/mug/600/400",
+    "alt": "Керамическая кружка 350 мл"
+  },
+  {
+    "id": "p6",
+    "title": "Беспроводная мышь",
+    "desc": "Тихие клики, регулировка DPI.",
+    "priceCents": 119900,
+    "img": "https://picsum.photos/seed/mouse/600/400",
+    "alt": "Беспроводная компьютерная мышь"
+  },
+  {
+    "id": "p7",
+    "title": "Хлопковая экосумка",
+    "desc": "Плотная ткань, длинные ручки.",
+    "priceCents": 21900,
+    "img": "https://picsum.photos/seed/tote/600/400",
+    "alt": "Бежевая хлопковая шоппер-сумка"
+  },
+  {
+    "id": "p8",
+    "title": "Блокнот A5 в точку",
+    "desc": "100 листов, мягкая обложка.",
+    "priceCents": 27900,
+    "img": "https://picsum.photos/seed/notebook/600/400",
+    "alt": "Блокнот формата A5 в точку"
+  },
+  {
+    "id": "p9",
+    "title": "Бутылка стальная 500 мл",
+    "desc": "Термос, держит тепло до 8 ч.",
+    "priceCents": 89900,
+    "img": "https://picsum.photos/seed/bottle/600/400",
+    "alt": "Стальная термобутылка 500 мл"
+  },
+  {
+    "id": "p10",
+    "title": "Свеча ароматическая",
+    "desc": "Лаванда и ваниль, до 30 ч.",
+    "priceCents": 34900,
+    "img": "https://picsum.photos/seed/candle/600/400",
+    "alt": "Ароматическая свеча в стеклянном стакане"
+  },
+  {
+    "id": "p11",
+    "title": "Гранола 400 г",
+    "desc": "Орехи, мёд, без сахара.",
+    "priceCents": 36900,
+    "img": "https://picsum.photos/seed/granola/600/400",
+    "alt": "Пакет гранолы 400 г"
+  },
+  {
+    "id": "p12",
+    "title": "Наушники накладные",
+    "desc": "Пассивная шумоизоляция, складные.",
+    "priceCents": 229900,
+    "img": "https://picsum.photos/seed/headphones/600/400",
+    "alt": "Накладные наушники чёрные"
+  }
+]
