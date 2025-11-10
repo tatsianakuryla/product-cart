@@ -15,7 +15,7 @@ export type CartItem = {
 };
 
 export type CartTotals = {
-  positions: number;
-  units: number;
-  sumCents: number;
+  itemCount: number;
+  totalQuantity: number;
+  totalCents: number;
 };
