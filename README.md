@@ -1,5 +1,7 @@
 # Vanilla CartController (TypeScript dev, JS deliverable)
 
+**🚀 Live Demo:** [https://shopping-list-berserk.netlify.app/](https://shopping-list-berserk.netlify.app/)
+
 **Goal:** Adaptive grid (~12 product cards) with quantity controls and a full cart block.
 **Tech:** Final deliverable is pure HTML/CSS/JS. TypeScript is used **only during development**; reviewers open `public/index.html` without installing anything.
 
