@@ -71,7 +71,7 @@ export class Cart {
     itemCountValue.textContent = '0';
     itemCountRow.append(itemCountLabel, itemCountValue);
 
-    const totalQuantityRow = createElementWithClassAndId('div', ['cart__summary-row']);
+    const totalQuantityRow = createElementWithClassAndId('div', ['cart__summary-row', 'flex']);
     const totalQuantityLabel = createElementWithClassAndId('span', ['cart__summary-label']);
     totalQuantityLabel.textContent = 'Всего единиц:';
     const totalQuantityValue = createElementWithClassAndId('span', ['cart__summary-value']);
@@ -82,6 +82,7 @@ export class Cart {
     const totalRow = createElementWithClassAndId('div', [
       'cart__summary-row',
       'cart__summary-row--total',
+      'flex'
     ]);
     const totalLabel = createElementWithClassAndId('span', ['cart__summary-label']);
     totalLabel.textContent = 'Итого:';
@@ -116,7 +117,6 @@ export class Cart {
 
     this.emptyStateElement.style.display = isEmpty ? 'block' : 'none';
     this.itemsContainerElement.style.display = isEmpty ? 'none' : 'block';
-    this.summaryElement.style.display = isEmpty ? 'none' : 'block';
     const currentIds = new Set(items.map((item) => item.id));
     const existingIds = new Set(this.itemComponents.keys());
     for (const id of existingIds) {
@@ -196,7 +196,6 @@ export class Cart {
 
     article.append(header, priceRow, controls);
 
-    // Event handlers
     increaseBtn.addEventListener('click', () => {
       const current = parseInt(quantityInput.value, 10);
       if (current < 999) {
