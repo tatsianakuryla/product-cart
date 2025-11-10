@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
-    "serve": "python -m http.server 5173 -d public",
+    "serve": "python -m http.server 5173",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },
