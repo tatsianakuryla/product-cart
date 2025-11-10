@@ -1,7 +1,7 @@
 import { createElementWithClassAndId } from '../../../utils/dom.js';
 import type { Product } from '../../../types.js';
 import { ProductCard } from '../ProductCard/ProductCard.js';
-import { CartController } from '../../CartController/CartController';
+import { CartController } from '../../CartController/CartController.js';
 
 export class ProductCardList {
   public static create(products: Product[], cart: CartController): HTMLElement {

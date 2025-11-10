@@ -1,7 +1,7 @@
 import { createElementWithClassAndId } from '../../../utils/dom.js';
 import type { Product } from '../../../types.js';
 import { BYN } from '../../../utils/price.js';
-import { ProductQuantityController } from '../../ProductQuantityController/ProductQuantityController';
+import { ProductQuantityController } from '../../ProductQuantityController/ProductQuantityController.js';
 import { createQuantityButton, createQuantityInput } from '../../../utils/quantityControls.js';
 
 type ProductCardOptions = {
