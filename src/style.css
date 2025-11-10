@@ -191,6 +191,7 @@ body {
   font-size: 20px;
   line-height: 1;
   cursor: pointer;
+  transition: background 0.2s ease;
 }
 
 .quantity-control__button:hover {
@@ -255,6 +256,7 @@ body {
   background: #eceff3;
   color: var(--text);
   cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
 }
 
 .btn:not(.quantity-control__button):hover {
@@ -275,6 +277,7 @@ body {
   background: var(--brand);
   color: var(--brand-contrast);
   border-color: transparent;
+  transition: filter 0.2s ease;
 }
 
 .btn--primary:hover {
@@ -301,6 +304,7 @@ body {
   background: var(--danger);
   color: var(--danger-contrast);
   border-color: transparent;
+  transition: filter 0.2s ease, background 0.2s ease;
 }
 
 .product-card__add-to-cart-button.is-in-cart:hover {
@@ -500,6 +504,7 @@ body {
   background: var(--danger);
   color: var(--danger-contrast);
   border-color: transparent;
+  transition: background 0.2s ease;
 }
 
 .btn--danger:hover {
@@ -510,6 +515,7 @@ body {
   background: #eceff3;
   color: var(--text);
   border: 1px solid var(--border);
+  transition: background 0.2s ease;
 }
 
 .btn--secondary:hover {
