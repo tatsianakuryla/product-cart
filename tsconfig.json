@@ -6,8 +6,8 @@
     "moduleResolution": "Bundler",
     "strict": true,
     "noEmitOnError": true,
-    "outDir": "./dist",
-    "rootDir": "./src",
+    "outDir": "public/dist",
+    "rootDir": "src",
     "sourceMap": false,
     "skipLibCheck": true,
     "noUncheckedIndexedAccess": true
