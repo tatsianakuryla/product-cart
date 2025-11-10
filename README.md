@@ -14,7 +14,7 @@
 
 ## Build once
 
-- `npm run build` emits JS into `public/dist`. Commit/ship `public` folder so the page runs without tools.
+- `npm run build` emits JS into `dist`. Commit/ship `public` folder so the page runs without tools.
 
 ## Notes
 
