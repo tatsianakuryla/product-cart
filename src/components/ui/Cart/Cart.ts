@@ -82,7 +82,7 @@ export class Cart {
     const totalRow = createElementWithClassAndId('div', [
       'cart__summary-row',
       'cart__summary-row--total',
-      'flex'
+      'flex',
     ]);
     const totalLabel = createElementWithClassAndId('span', ['cart__summary-label']);
     totalLabel.textContent = 'Итого:';

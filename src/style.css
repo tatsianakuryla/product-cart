@@ -256,7 +256,10 @@ body {
   background: #eceff3;
   color: var(--text);
   cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background 0.2s ease;
 }
 
 .btn:not(.quantity-control__button):hover {
@@ -304,7 +307,9 @@ body {
   background: var(--danger);
   color: var(--danger-contrast);
   border-color: transparent;
-  transition: filter 0.2s ease, background 0.2s ease;
+  transition:
+    filter 0.2s ease,
+    background 0.2s ease;
 }
 
 .product-card__add-to-cart-button.is-in-cart:hover {
